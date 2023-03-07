@@ -1,4 +1,4 @@
-package sartorio.mateus.movies;
+package sartorio.mateus.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

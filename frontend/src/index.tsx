@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import { Home } from './components/home';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import { App } from './App';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home/>
+        element: <App/>
     },
     {
         path: "easter-egg",

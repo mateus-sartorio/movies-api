@@ -1,1 +1,9 @@
+sartorio/mateus/movies/repository/ReviewRepository.class
+sartorio/mateus/movies/model/Review.class
+sartorio/mateus/movies/model/Movie.class
 sartorio/mateus/movies/MoviesApplication.class
+sartorio/mateus/movies/service/MovieService.class
+sartorio/mateus/movies/repository/MovieRepository.class
+sartorio/mateus/movies/web/ReviewController.class
+sartorio/mateus/movies/web/MovieController.class
+sartorio/mateus/movies/service/ReviewService.class

@@ -1,1 +1,9 @@
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/web/ReviewController.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/service/ReviewService.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/service/MovieService.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/repository/ReviewRepository.java
 /home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/MoviesApplication.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/web/MovieController.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/model/Movie.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/model/Review.java
+/home/mateus/Desktop/Git/movies-api/backend/src/main/java/sartorio/mateus/movies/repository/MovieRepository.java

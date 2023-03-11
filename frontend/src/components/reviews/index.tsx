@@ -9,6 +9,9 @@ export const Reviews = (props: any) => {
     const revText = useRef();
     const params = useParams();
     const movieId = params.movieId;
+
+    console.log(params);
+    console.log(reviews);
     
     useEffect(() => {
         getMovieData(movieId);
@@ -17,11 +20,6 @@ export const Reviews = (props: any) => {
     const addReview = async (e: any) => {
         e.preventDefault();
         const rev = revText.current;
-        const response = await fetch("http://192.168.100.35:8080/api/v1/reviews", {
-            reviewBody: rev.value,
-            imdbId: movieId,
-        });
-        
     }
 
     return (

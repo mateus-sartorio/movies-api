@@ -2,14 +2,7 @@ import { Form, Button } from "react-bootstrap";
 
 import "./index.css";
 
-interface propsType {
-    handleSubmit: () => void;
-    revText: any;
-    labelText: string;
-    defaultValue: string;
-}
-
-export const ReviewForm = (props: propsType) => {
+export const ReviewForm = (props: any) => {
     const { handleSubmit, revText, labelText, defaultValue } = props;
 
     return (

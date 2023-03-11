@@ -24,7 +24,6 @@ export const Hero = (props: propsType) => {
                     { 
                         const { trailerLink, title, poster, backdrops } = movie;
                         const trailerLinkKey = trailerLink.substring(trailerLink.length - 11); 
-                        console.log(trailerLinkKey);
                         return <Paper key={index}>
                             <div className="movie-card-container">
                                 <div className="movie-card" style={{backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(${backdrops[0]})`}}>

@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import { movieType } from '../../types/movieType';
 import './index.css';
+import { Button } from 'react-bootstrap';
 
 interface propsType {
     movies?: movieType[];
@@ -15,6 +16,10 @@ export const Hero = (props: propsType) => {
     const { movies } = props;
 
     const navigate = useNavigate();
+    
+    const reviews = (imdbId: string) => {
+    navigate(`/reviews/${imdbId}`);
+}
 
     return (
         <div className="movie-carousel-container">
@@ -22,7 +27,7 @@ export const Hero = (props: propsType) => {
                 {
                     movies?.map((movie, index) =>
                     { 
-                        const { trailerLink, title, poster, backdrops } = movie;
+                        const { imdbId, trailerLink, title, poster, backdrops } = movie;
                         const trailerLinkKey = trailerLink.substring(trailerLink.length - 11); 
                         return <Paper key={index}>
                             <div className="movie-card-container">
@@ -40,6 +45,9 @@ export const Hero = (props: propsType) => {
                                                     <FontAwesomeIcon className="play-button-icon" icon={faCirclePlay}/>
                                                 </div>
                                             </Link>
+                                            <div className="movie-review-button-container">
+                                                <Button variant="info" onClick={() => reviews(movie.imdbId)}>Reviews</Button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
